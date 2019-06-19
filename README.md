@@ -31,7 +31,7 @@ done
 
 ## Edit Apache to use the right php version
 
-``
+
 To enable PHP in Apache add the following to httpd.conf and restart Apache:
     LoadModule php7_module /usr/local/opt/php/lib/httpd/modules/libphp7.so
 
@@ -49,4 +49,4 @@ To have launchd start php now and restart at login:
   brew services start php
 Or, if you don't want/need a background service you can just run:
   php-fpm
-``
+
