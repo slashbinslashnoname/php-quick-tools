@@ -20,7 +20,7 @@ brew upgrade
 ```
 versions="php70 php71 php72 php73"
 for version in $versions; do
-    brew install $version --with-fpm
+    brew install $version
     brew install $version-xdebug
     brew unlink $version
 done
