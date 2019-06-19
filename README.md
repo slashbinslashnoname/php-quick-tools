@@ -18,7 +18,7 @@ brew upgrade
 ## Installing multiple versions of php 
 
 ```
-versions="php56 php70 php71 php72 php73"
+versions="php70 php71 php72 php73"
 for version in $versions; do
     brew install $version --with-fpm
     brew install $version-xdebug
